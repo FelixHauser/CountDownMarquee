@@ -5,15 +5,16 @@
 
 //Set the Text to display
 
-#define FIRST_TEXT_TO_SCROLL "      3D Printers, CNC and Make"
-#define LAST_TEXT_TO_SCROLL "       "
+#define FIRST_TEXT_TO_SCROLL "                    First text to scroll "  //leave empty ("") for no text. Leave some blank spaces to the left to make the text scroll from the top right.
+#define LAST_TEXT_TO_SCROLL " Second text to scroll"                      //leave empty ("") for no text
 
+#define COUNTDOWN true // Set to true true to show the countdown. Set to false to not show it
 
 
 //Define the Marquee
 
-#define PIXELS 100
-#define SCROLL_DELAY 40
+#define PIXELS 100  // size of the marquee (# of LEDs)
+#define SCROLL_DELAY 40  // scroll speed
 
 
 

@@ -1,8 +1,8 @@
 #include "Marquee.h"
 
 
-RtcSetup rtClock;  //init Real Time Clock Object
-
+TextMaker countdown;  
+RtcSetup rtClock;  //why the f*** do I need this here?
 
 
 #define PIXEL_PORT  PORTD  // Port of the pin the pixels are connected to
@@ -281,18 +281,20 @@ Marquee::MarqueeSetup(){
 
 
 void Marquee::scrollText() {
-  
-int lineLength=rtClock.timeString().length();
+
+//the following 4 lines "translate" a string to a char
+
+int lineLength=countdown.composedString().length();
 char line[lineLength+1]; 
-rtClock.timeString().toCharArray(line,lineLength+1); //populates the char array.
+countdown.composedString().toCharArray(line,lineLength+1); //populates the char array.
 line[lineLength+1] = 0;
+
 
 const char *m = line;
 
              
   while (*m) {      
 
-Serial.println("done");
 
       for( uint8_t step=0; step<FONT_WIDTH+INTERCHAR_SPACE  ; step++ ) {   // step though each column of the 1st char for smooth scrolling
 

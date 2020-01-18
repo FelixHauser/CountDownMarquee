@@ -81,8 +81,8 @@ String RtcSetup::timeString(){
       }
 
 
-String dateString= FIRST_TEXT_TO_SCROLL;
-dateString=dateString + weeks + " Woche(n) " + days + " Tag(e) " + hours + " Stunde(n) " + minutes + " Minute(n)" + LAST_TEXT_TO_SCROLL;
+String dateString="";
+dateString=dateString + weeks + " Woche(n) " + days + " Tag(e) " + hours + " Stunde(n) " + minutes + " Minute(n)";
 
 return dateString;
 

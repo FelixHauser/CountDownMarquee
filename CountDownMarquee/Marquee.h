@@ -2,7 +2,8 @@
 #define Marquee_h
 
 #include "Configuration.h"
-#include "RealTimeClock.h"
+#include "TextMaker.h"
+
 
 class Marquee{
   
