@@ -81,7 +81,7 @@ String RtcSetup::timeString(){
       }
 
 
-String dateString="           Sekundarschule Kirchhellen. Zeit bis zu den Osterferien: ";
+String dateString="           Zeit bis zu den Osterferien: ";
 dateString=dateString + weeks + " Woche(n) " + days + " Tag(e) " + hours + " Stunde(n) " + minutes + " Minute(n)";
 
 return dateString;
