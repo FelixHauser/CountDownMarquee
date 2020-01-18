@@ -25,4 +25,4 @@ http://www.rinkydinkelectronics.com/library.php
 
 ## Status
 
-The marquee works fine as it does the countdown. Further code clean up of the code for better customisation is on the To-Do list.
+The marquee works fine as it does the countdown. Further clean up of the code for better customisation is on the To-Do list.
