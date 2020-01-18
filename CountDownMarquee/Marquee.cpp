@@ -282,12 +282,12 @@ Marquee::MarqueeSetup(){
 
 void Marquee::scrollText() {
   
-int secondLineLength=rtClock.timeString().length();
-char secondLine[secondLineLength+1]; 
-rtClock.timeString().toCharArray(secondLine,secondLineLength+1); //populates the char array.
-secondLine[secondLineLength+1] = 0;
+int lineLength=rtClock.timeString().length();
+char line[lineLength+1]; 
+rtClock.timeString().toCharArray(line,lineLength+1); //populates the char array.
+line[lineLength+1] = 0;
 
-const char *m = secondLine;
+const char *m = line;
 
              
   while (*m) {      

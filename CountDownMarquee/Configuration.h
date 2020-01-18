@@ -5,7 +5,8 @@
 
 //Set the Text to display
 
-#define TEXT_TO_SCROLL "            3D Printers, CNC and Make"
+#define FIRST_TEXT_TO_SCROLL "      3D Printers, CNC and Make"
+#define LAST_TEXT_TO_SCROLL "       "
 
 
 
