@@ -16,6 +16,7 @@ The LED strip used are import WS2812B.
 The core of the code is well above what I can code myself. I believe that credit must be given when credit is due. So if you want to know more about the original author of the marquee, scrolling code, etc. visit please his blog and GitHub profile:
 
 Blog: https://wp.josh.com/2016/05/20/huge-scrolling-arduino-led-sign/
+
 GitHub: https://github.com/bigjosh/MacroMarquee/blob/master/Arduino/SimpleScroll/SimpleScroll.ino
 
 There are different RTC modules for Arduino and other microprocessors. The one it is used on this project is a DS3231. The library I used for this project is by Rinky Dink Electronics and can be found here:
