@@ -7,7 +7,7 @@ void setup(){
   
   marquee.MarqueeSetup();
 
-  Serial.begin(9600);
+  
   
   }
  

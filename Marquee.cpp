@@ -278,8 +278,6 @@ Marquee::MarqueeSetup(){
   }
 
 
-//static char jabberText[] = TEXT_TO_SCROLL;
-
 
 
 void Marquee::scrollText() {
@@ -291,7 +289,6 @@ secondLine[secondLineLength+1] = 0;
 
 const char *m = secondLine;
 
-//const char *m = jabberText;
              
   while (*m) {      
 
