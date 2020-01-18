@@ -25,4 +25,8 @@ http://www.rinkydinkelectronics.com/library.php
 
 ## Status
 
-The marquee works fine as it does the countdown. Further clean up of the code for better customisation is on the To-Do list.
+The marquee works fine and so does the countdown. Some further customisation regarding the colors, custom characters or just display of text without scrolling is on the To-Do list for this project.
+
+## Isues
+
+No clue why is that, but if the Real Time Clock object declaration on Marquee.cpp (line 5) is removed or commented out, the scrolling does not work and instead only part of the text is shown without scrolling.
