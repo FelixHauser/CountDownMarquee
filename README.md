@@ -24,4 +24,4 @@ http://www.rinkydinkelectronics.com/library.php
 
 ## Status
 
-So far the marquee and countdown works ok, but somehow when using the countdown, the top bottom line of LEDs doesn't work. I'm working on it and any help figuring out why, would be much appreciated.
+The marquee works fine as it does the countdown. Further code clean up of the code for better customisation is on the To-Do list.
