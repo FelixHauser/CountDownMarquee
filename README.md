@@ -33,7 +33,7 @@ No clue why is that, but if the Real Time Clock object declaration on Marquee.cp
 
 ## To Do
 
-..* Color customization
-..* Custom characters
-..* Static Text
-..* Control interface (buttons, encoders, etc.)
+··* Color customization
+··* Custom characters
+··* Static Text
+··* Control interface (buttons, encoders, etc.)
