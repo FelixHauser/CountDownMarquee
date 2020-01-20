@@ -342,7 +342,7 @@ void setup() {
 
 static char jabberText[] = 
       "                                       " 
-      "Mireia, Ona, Marcal i Indy..."
+      "Some Random Text"
 
 ;
 
