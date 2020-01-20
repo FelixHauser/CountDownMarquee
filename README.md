@@ -31,9 +31,9 @@ The marquee works fine and so does the countdown. Two lines of text will be disp
 
 No clue why is that, but if the Real Time Clock object declaration on Marquee.cpp (line 5) is removed or commented out, the scrolling does not work and instead only part of the text is shown without scrolling.
 
-##To Do
+## To Do
 
-..*Color customization
-..*Custom characters
-..*Static Text
-..*Control interface (buttons, encoders, etc.)
+..* Color customization
+..* Custom characters
+..* Static Text
+..* Control interface (buttons, encoders, etc.)
